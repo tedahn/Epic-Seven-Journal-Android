@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/small_hero_item_layout"
+    android:orientation="vertical"
+    android:paddingTop="8dp"
+    android:layout_width="70dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="?android:attr/selectableItemBackgroundBorderless">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/small_hero_item_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="3dp"
+            android:contentDescription="@string/hero_item_icon"
+            tools:src="@tools:sample/avatars"
+            android:foreground="@drawable/layout_circle_border_element"/>
+        <ImageView
+            android:id="@+id/small_hero_item_type"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="0dp"
+            android:contentDescription="@string/hero_item_type"
+            app:srcCompat="@drawable/cm_icon_role_warrior" />
+
+        <ImageView
+            android:id="@+id/small_hero_item_element"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="38dp"
+            android:contentDescription="@string/hero_item_element"
+            app:srcCompat="@drawable/cm_icon_prodark" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="-13dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+        <RatingBar
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/small_hero_item_rarity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="5"
+            android:numStars="5"
+            android:isIndicator="true"
+            android:scaleX="0.6"
+            android:scaleY="0.6"
+            style="@style/EpicSevenRatingBarSmall"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

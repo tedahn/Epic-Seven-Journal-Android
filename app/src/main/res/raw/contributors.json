@@ -1,0 +1,20 @@
+[
+  {
+    "name":"Epic Seven DataBase",
+    "imageUrl":"https://avatars1.githubusercontent.com/u/45427583?v=4",
+    "url":"https://epicsevendb.com/about",
+    "description": "Team of developers who collect and provide Epic Seven data."
+  },
+  {
+    "name": "Discord Tier List Committee",
+    "imageUrl": "https://i.imgur.com/53oU3Wl.png",
+    "url": "https://docs.google.com/spreadsheets/d/11mwHFlxPpIFu24sRxvcK1ZktkjvBQg1oTv035OSp_OI/",
+    "description": "Team of players who analyze current game meta to share insight with the community."
+  },
+  {
+    "name": "Kuma Duma",
+    "imageUrl": "https://imgur.com/qrNuEcj.png",
+    "url": "",
+    "description": "Developer of the Epic Seven Journal App"
+  }
+]

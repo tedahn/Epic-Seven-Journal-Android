@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--buffs-->
+    <string-array name="buffList">
+        <item>stic_endure</item>
+        <item>stic_protect</item>
+        <item>stic_heal</item>
+        <item>stic_def_up</item>
+        <item>stic_cri_up</item>
+        <item>stic_att_up</item>
+        <item>stic_att_up2</item>
+        <item>stic_hide</item>
+        <item>stic_immortality</item>
+        <item>stic_bless</item>
+        <item>stic_counter</item>
+        <item>stic_haki</item>
+        <item>stic_crires_up</item>
+        <item>stic_invincible</item>
+        <item>stic_speed_up</item>
+        <item>stic_lovely</item>
+        <item>stic_reflect</item>
+        <item>stic_showtime</item>
+        <item>stic_debuf_impossible</item>
+        <item>stic_dodge_up</item>
+        <item>stic_cridmg_up</item>
+    </string-array>
+    <string-array name="buffName">
+        <item>Skill Nullifier</item>
+        <item>Barrier</item>
+        <item>Continuous Heal</item>
+        <item>Increase Defense</item>
+        <item>Increase Critical  Hit Chance</item>
+        <item>Increase Attack</item>
+        <item>Increase Attack (Greater)</item>
+        <item>Stealth</item>
+        <item>Immortal</item>
+        <item>Revive</item>
+        <item>Counterattack</item>
+        <item>Vigor</item>
+        <item>Increase Critical Hit Resistance</item>
+        <item>Invincible</item>
+        <item>Increase Speed</item>
+        <item>Loveliness</item>
+        <item>Reflect</item>
+        <item>Idol</item>
+        <item>Debuff Immunity</item>
+        <item>Increase Dodge Chance</item>
+        <item>Increase Critical Hit Damage</item>
+    </string-array>
+
+    <string name="stic_endure">Skill Nullifier</string>
+    <string name="stic_protect">Barrier</string>
+    <string name="stic_heal">Continuous Heal</string>
+    <string name="stic_def_up">Increase Defense</string>
+    <string name="stic_cri_up">Increase Critical  Hit Chance</string>
+    <string name="stic_att_up">Increase Attack</string>
+    <string name="stic_att_up2">Increase Attack (Greater)</string>
+    <string name="stic_hide">Stealth</string>
+    <string name="stic_immortality">Immortal</string>
+    <string name="stic_bless">Revive</string>
+    <string name="stic_counter">Counterattack</string>
+    <string name="stic_haki">Vigor</string>
+    <string name="stic_crires_up">Increase Critical Hit Resistance</string>
+    <string name="stic_invincible">Invincible</string>
+    <string name="stic_speed_up">Increase Speed</string>
+    <string name="stic_lovely">Loveliness</string>
+    <string name="stic_reflect">Reflect</string>
+    <string name="stic_showtime">Idol</string>
+    <string name="stic_debuf_impossible">Debuff Immunity</string>
+
+    <string-array name="debuffList">
+        <item>stic_dot</item>
+        <item>stic_vampire</item>
+        <item>stic_blaze</item>
+        <item>stic_nail</item>
+        <item>stic_blind</item>
+        <item>stic_speed_dn</item>
+        <item>stic_stun</item>
+        <item>stic_heal_impossible</item>
+        <item>stic_blood</item>
+        <item>stic_silence</item>
+        <item>stic_att_dn</item>
+        <item>stic_def_dn</item>
+        <item>stic_sign</item>
+        <item>stic_provoke</item>
+        <item>stic_buf_impossible</item>
+        <item>stic_sleep</item>
+        <item>stic_dodge_dn</item>
+    </string-array>
+    <string-array name="debuffName">
+        <item>Poison</item>
+        <item>Vampiric Touch</item>
+        <item>Burn</item>
+        <item>Magic Nail</item>
+        <item>Decrease Hit Chance</item>
+        <item>Decrease Speed</item>
+        <item>Stun</item>
+        <item>Unhealable</item>
+        <item>Bleed</item>
+        <item>Silence</item>
+        <item>Decrease Attack</item>
+        <item>Decrease Defense</item>
+        <item>Target</item>
+        <item>Provoke</item>
+        <item>Cannot Buff</item>
+        <item>Sleep</item>
+        <item>Decrease Dodge Chance</item>
+    </string-array>
+
+    <string name="stic_dot">Poison</string>
+    <string name="stic_vampire">Vampiric Touch</string>
+    <string name="stic_blaze">Burn</string>
+    <string name="stic_nail">Magic Nail</string>
+    <string name="stic_blind">Decrease Hit Chance</string>
+    <string name="stic_speed_dn">Decrease Speed</string>
+    <string name="stic_stun">Stun</string>
+    <string name="stic_heal_impossible">Unhealable</string>
+    <string name="stic_blood">Bleed</string>
+    <string name="stic_silence">Silence</string>
+    <string name="stic_att_dn">Decrease Attack</string>
+    <string name="stic_def_dn">Decrease Defense</string>
+    <string name="stic_sign">Target</string>
+    <string name="stic_provoke">Provoke</string>
+    <string name="stic_buf_impossible">Cannot Buff</string>
+    <string name="stic_sleep">Sleep</string>
+</resources>

@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Epic 7 Journal</string>
+    <string name="app_name_full">Epic 7 Journal</string>
+    <string name="hero_act_title">Hero Info</string>
+    <string name="cata_act_title">Catalyst Info</string>
+    <string name="art_act_title">Artifact Info</string>
+    <string name="splash_image">Splash Image</string>
+    <string name="loading_hint">Loading Data</string>
+    <string name="camper_select_activity">Choose Campers</string>
+
+    <string name="search_hint">Search</string>
+    <string name="setting_hint">Settings</string>
+    <string name="nav_back">Back</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_hero">Heroes</string>
+    <string name="title_catalyst">Catalysts</string>
+    <string name="title_artifact">Artifacts</string>
+    <string name="title_camping">Camping</string>
+    <string name="title_menu">Menu</string>
+
+    <string name="hero_item_icon">Hero Icon Image</string>
+    <string name="hero_item_name">Hero Name</string>
+    <string name="hero_item_type">Hero Class</string>
+    <string name="hero_item_element">Hero Element</string>
+    <string name="hero_item_zodiac_icon">Hero Zodiac</string>
+    <string name="hero_item_rarity">Hero Rarity</string>
+
+    <string name="hero_profile_icon">Hero Icon Image</string>
+    <string name="hero_profile_name">Hero Name</string>
+    <string name="hero_profile_type">Hero Class</string>
+    <string name="hero_profile_element">Hero Element</string>
+    <string name="hero_profile_zodiac_icon">Hero Zodiac</string>
+    <string name="hero_profile_rarity">Hero Rarity</string>
+
+    <string name="artifact_item_icon">Artifact Icon Image</string>
+    <string name="artifact_item_name">Artifact Name</string>
+    <string name="artifact_item_type">Artifact Class</string>
+    <string name="artifact_item_rarity">Artifact Rarity</string>
+
+    <string name="camper_select_helper_short">Select Heroes</string>
+    <string name="camper_select_helper_long">Select Heroes in your Labyrinth Team</string>
+
+    <string name="menu_download">Download (Offline)</string>
+    <string name="menu_setting">Settings</string>
+    <string name="settings_activity_title">Settings</string>
+
+    <string name="work_in_progress_hint">Coming Soon!</string>
+
+    <string name="memory_imprint_empty">-</string>
+
+    <string name="discord_tier_list_committee_credit_description">Powered by the Discord Tier List Community</string>
+    <string name="no_url_hint">Thank you for the support!</string>
+
+    <string name="esdb_profile_image_url">https://avatars1.githubusercontent.com/u/45427583?v=4</string>
+    <string name="esdb_name">Epic Seven DataBase</string>
+    <string name="esdb_name_credit">Powered by:\t</string>
+    <string name="esdb_ver_credit">API Version:\t</string>
+    <string name="esdb_contribute_link_url">https://epicsevendb.com/about</string>
+
+    <string name="esdb_asset_url">https://assets.epicsevendb.com/</string>
+
+    <string-array name="main_menu_items">
+        <item>hero</item>
+        <item>artifact</item>
+        <item>catalyst</item>
+        <item>camp</item>
+        <item>menu</item>
+    </string-array>
+
+    <string-array name="filter_order_by_items">
+        <item>Name Asc</item>
+        <item>Name Desc</item>
+        <item>Rarity Asc</item>
+        <item>Rarity Desc</item>
+    </string-array>
+
+    <string-array name="filter_order_by_items_tier">
+        <item>PvP Tier Asc</item>
+        <item>PvP Tier Desc</item>
+        <item>PvE Tier Asc</item>
+        <item>PvE Tier Desc</item>
+    </string-array>
+
+</resources>

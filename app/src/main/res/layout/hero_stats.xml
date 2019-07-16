@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:background="@color/colorPrimary"
+    android:layout_marginBottom="20dp">
+
+
+    <include layout="@layout/divider"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/HeroInfoSubtitleFont"
+            android:text="Stats"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="end"
+            android:layout_marginEnd="20dp">
+            <Spinner
+                android:id="@+id/hero_stats_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foregroundTint="@color/colorPrimary"
+                android:backgroundTint="@color/colorPrimary"
+                android:popupBackground="@color/colorPrimary"
+                android:minHeight="30dp"
+                android:layout_gravity="end"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:background="@drawable/layout_background_round">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/hero_stats_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            tools:itemCount="10"
+            tools:listitem="@layout/rv_item_hero_stats"
+            tools:srcCompat="@layout/rv_item_hero_stats"/>
+
+    </LinearLayout>
+
+</LinearLayout>

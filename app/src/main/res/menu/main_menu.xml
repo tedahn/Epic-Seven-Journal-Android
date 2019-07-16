@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item-->
+        <!--android:id="@+id/pophead_switch"-->
+        <!--android:title="PopHead"-->
+        <!--app:actionLayout="@layout/switch_item"-->
+        <!--app:showAsAction="always"-->
+        <!--app:actionViewClass="android.support.v7.widget.SwitchCompat"/>-->
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:iconTint="@color/colorText"
+        android:title="@string/search_hint"
+        android:checkable="true"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        />
+
+</menu>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display no text description for star rarity -->
+    <string-array name="rarityText">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="rarityIcons">
+        <item>@drawable/star_one</item>
+        <item>@drawable/star_two</item>
+        <item>@drawable/star_three</item>
+        <item>@drawable/star_four</item>
+        <item>@drawable/star_five</item>
+    </string-array>
+    <string-array name="rarityInt">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="elements">
+        <item>Fire</item>
+        <item>Ice</item>
+        <item>Earth</item>
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="elementIcons">
+        <item>@drawable/cm_icon_profire</item>
+        <item>@drawable/cm_icon_proice</item>
+        <item>@drawable/cm_icon_proearth</item>
+        <item>@drawable/cm_icon_prolight</item>
+        <item>@drawable/cm_icon_prodark</item>
+    </string-array>
+    <string-array name="elementTag">
+        <item>fire</item>
+        <item>ice</item>
+        <item>earth</item>
+        <item>light</item>
+        <item>dark</item>
+    </string-array>
+    <string-array name="zodiacs">
+        <item>Aries</item>
+        <item>Taurus</item>
+        <item>Gemini</item>
+        <item>Cancer</item>
+        <item>Leo</item>
+        <item>Virgo</item>
+        <item>Libra</item>
+        <item>Scorpio</item>
+        <item>Sagittarius</item>
+        <item>Capricorn</item>
+        <item>Aquarius</item>
+        <item>Pisces</item>
+    </string-array>
+    <string-array name="zodiacIcons">
+        <item>@drawable/zod_icon_aries</item>
+        <item>@drawable/zod_icon_taurus</item>
+        <item>@drawable/zod_icon_gemini</item>
+        <item>@drawable/zod_icon_cancer</item>
+        <item>@drawable/zod_icon_leo</item>
+        <item>@drawable/zod_icon_virgo</item>
+        <item>@drawable/zod_icon_libra</item>
+        <item>@drawable/zod_icon_scorpio</item>
+        <item>@drawable/zod_icon_sagittarius</item>
+        <item>@drawable/zod_icon_capricorn</item>
+        <item>@drawable/zod_icon_aquarius</item>
+        <item>@drawable/zod_icon_pisces</item>
+    </string-array>
+    <string-array name="zodiacTag">
+        <item>aries</item>
+        <item>taurus</item>
+        <item>gemini</item>
+        <item>cancer</item>
+        <item>leo</item>
+        <item>virgo</item>
+        <item>libra</item>
+        <item>scorpio</item>
+        <item>sagittarius</item>
+        <item>capricorn</item>
+        <item>aquarius</item>
+        <item>pisces</item>
+    </string-array>
+    <string-array name="classType">
+        <item>Warrior</item>
+        <item>Knight</item>
+        <item>Thief</item>
+        <item>Ranger</item>
+        <item>Mage</item>
+        <item>Soul Weaver</item>
+        <item>Material</item>
+    </string-array>
+    <string-array name="classTypeIcons">
+        <item>@drawable/cm_icon_role_warrior</item>
+        <item>@drawable/cm_icon_role_knight</item>
+        <item>@drawable/cm_icon_role_thief</item>
+        <item>@drawable/cm_icon_role_ranger</item>
+        <item>@drawable/cm_icon_role_mage</item>
+        <item>@drawable/cm_icon_role_soul_weaver</item>
+        <item>@drawable/cm_icon_role_material</item>
+    </string-array>
+    <string-array name="classTypeTag">
+        <item>warrior</item>
+        <item>knight</item>
+        <item>thief</item>
+        <item>ranger</item>
+        <item>mage</item>
+        <item>soul-weaver</item>
+        <item>material</item>
+    </string-array>
+    <string-array name="buffs">
+        <item>Increase Attack</item>
+        <item>Revive</item>
+        <item>Counter</item>
+        <item>Critical Rate Up</item>
+        <item>Critical Damage Up</item>
+        <item>Immunity</item>
+        <item>Increase Defense</item>
+        <item>Increase Evasion Chance</item>
+        <item>Continuous Healing</item>
+        <item>Stealth</item>
+        <item>Immortality</item>
+        <item>Rage</item>
+        <item>Barrier</item>
+        <item>Increase Speed</item>
+    </string-array>
+    <string-array name="buffIcons">
+        <item>@drawable/stic_att_up</item>
+        <item>@drawable/stic_bless</item>
+        <item>@drawable/stic_counter</item>
+        <item>@drawable/stic_cri_up</item>
+        <item>@drawable/stic_cridmg_up</item>
+        <item>@drawable/stic_debuf_impossible</item>
+        <item>@drawable/stic_def_up</item>
+        <item>@drawable/stic_dodge_up</item>
+        <item>@drawable/stic_heal</item>
+        <item>@drawable/stic_hide</item>
+        <item>@drawable/stic_immortality</item>
+        <item>@drawable/stic_invincible</item>
+        <item>@drawable/stic_madness</item>
+        <item>@drawable/stic_protect</item>
+        <item>@drawable/stic_speed_up</item>
+    </string-array>
+    <string-array name="buffTags">
+
+    </string-array>
+    <string-array name="debuffs">
+        <item>Decrease Attack</item>
+        <item>Burn</item>
+        <item>Decrease Hit Chance</item>
+        <item>Bleed</item>
+        <item>Cannot Buff</item>
+        <item>Critical Damage Decrease</item>
+        <item>Curse</item>
+        <item>Decrease Defense</item>
+        <item>Decrease Evasion Chance</item>
+        <item>Poison</item>
+        <item>Unhealable</item>
+        <item>Magic Nail</item>
+        <item>Provoke</item>
+        <item>Target</item>
+        <item>Silence</item>
+        <item>Sleep</item>
+        <item>Decrease Speed</item>
+        <item>Stun</item>
+        <item>Vampirism</item>
+    </string-array>
+    <string-array name="debuffIcons">
+        <item>@drawable/stic_att_dn</item>
+        <item>@drawable/stic_blaze</item>
+        <item>@drawable/stic_blind</item>
+        <item>@drawable/stic_blood</item>
+        <item>@drawable/stic_buf_impossible</item>
+        <item>@drawable/stic_cridmg_dn</item>
+        <item>@drawable/stic_curse</item>
+        <item>@drawable/stic_def_dn</item>
+        <item>@drawable/stic_dodge_dn</item>
+        <item>@drawable/stic_dot</item>
+        <item>@drawable/stic_heal_impossible</item>
+        <item>@drawable/stic_nail</item>
+        <item>@drawable/stic_provoke</item>
+        <item>@drawable/stic_sign</item>
+        <item>@drawable/stic_silence</item>
+        <item>@drawable/stic_sleep</item>
+        <item>@drawable/stic_speed_dn</item>
+        <item>@drawable/stic_stun</item>
+        <item>@drawable/stic_vampire</item>
+    </string-array>
+    <string-array name="debuffTags">
+
+    </string-array>
+</resources>

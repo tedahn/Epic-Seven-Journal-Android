@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="15dp"
+    android:orientation="vertical">
+
+    <include layout="@layout/divider"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/HeroInfoSubtitleFont"
+            android:text="Battle Art"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:id="@+id/hero_info_full_image"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            tools:src="@tools:sample/backgrounds/scenic"
+            />
+
+    </LinearLayout>
+
+    <include layout="@layout/divider"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/HeroInfoSubtitleFont"
+            android:text="Background"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:padding="5dp"
+            android:id="@+id/hero_info_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@tools:sample/lorem[20]"
+            android:textAppearance="@style/HeroInfoDescriptionFont"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/divider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/HeroInfoSubtitleFont"
+            android:text="Relations"
+            android:layout_marginBottom="10dp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/hero_info_relations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            tools:itemCount="5"
+            tools:listitem="@layout/hero_relations_item_small"
+            tools:srcCompat="@layout/hero_relations_item_small"/>
+    </LinearLayout>
+</LinearLayout>

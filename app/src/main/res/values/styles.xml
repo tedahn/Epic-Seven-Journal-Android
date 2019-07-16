@@ -1,0 +1,176 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorSecondary</item>
+
+        <item name="android:fontFamily">@font/noto_sans</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textColorSecondary">@color/colorTextSecondary</item>
+
+        <item name="searchViewStyle">@style/SearchViewStyle</item>
+
+    </style>
+
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <!-- Gets rid of the search icon -->
+        <item name="searchIcon">@drawable/ic_search_black_24dp</item>
+        <!-- Gets rid of underline -->
+        <item name="queryBackground">@null</item>
+        <!-- Gets rid of the search icon when the SearchView is expanded -->
+        <!--<item name="searchHintIcon">@null</item>-->
+        <!-- The hint text that appears when the user has not typed anything -->
+        <!--<item name="queryHint">@string/search_hint</item>-->
+        <!-- Sets text color displayed -->
+        <item name="android:textColor">@color/colorText</item>
+        <!-- Sets text color displayed when focused -->
+        <item name="android:textColorHint">@color/colorText</item>
+        <!-- Sets text color when user types -->
+        <item name="android:editTextColor">@color/colorText</item>
+    </style>
+
+    <style name="SkystoneRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/skystone_rating_bar</item>
+        <item name="android:maxHeight">85dip</item>
+        <item name="android:maxWidth">81dip</item>
+        <item name="android:minHeight">25dip</item>
+        <item name="android:minWidth">21dip</item>
+    </style>
+
+    <style name="MolagoraRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/molagora_rating_bar</item>
+        <item name="android:maxHeight">84dp</item>
+        <item name="android:maxWidth">84dp</item>
+    </style>
+
+    <style name="EpicSevenRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/epicseven_rating_bar</item>
+        <item name="android:maxHeight">29dip</item>
+        <item name="android:maxWidth">30dip</item>
+    </style>
+
+    <style name="EpicSevenAwakenRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/epicseven_awaken_rating_bar</item>
+        <item name="android:maxHeight">29dip</item>
+        <item name="android:maxWidth">30dip</item>
+    </style>
+
+    <style name="EpicSevenRatingBarSmall" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/epicseven_rating_bar_small</item>
+        <item name="android:maxHeight">19dp</item>
+        <item name="android:maxWidth">20dp</item>
+    </style>
+
+    <style name="EpicSevenRatingBarMini" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/epicseven_rating_bar_mini</item>
+        <item name="android:maxHeight">12dp</item>
+        <item name="android:maxWidth">13dp</item>
+    </style>
+
+    <style name="FilterSubTitleFont" parent="TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+        <item name="android:fontFamily">@font/noto_sans</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="HeroInfoSubtitleFont" parent="TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+        <item name="android:fontFamily">@font/noto_sans</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorSecondary</item>
+    </style>
+    <style name="HeroInfoDescriptionFont" parent="TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+        <item name="android:fontFamily">@font/noto_sans</item>
+        <item name="android:textSize">14.5sp</item>
+        <item name="android:textColor">@color/colorSecondary</item>
+        <item name="android:lineSpacingExtra">5dp</item>
+    </style>
+
+    <style name="MemoryImprintIncreaseFont" parent="TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+        <item name="android:fontFamily">@font/noto_sans</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorPrimaryLight</item>
+    </style>
+
+    <style name="DiscordTierRatingFont" parent="TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+        <item name="android:fontFamily">@font/noto_sans</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorPrimaryLight</item>
+    </style>
+
+    <style name="DiscordTierRatingFontBold" parent="TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+        <item name="android:fontFamily">@font/noto_sans</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorPrimaryLight</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MenuHeroListTierScoreFont" parent="TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+        <item name="android:fontFamily">@font/noto_sans</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ArtifactSecondaryHeaderFont" parent="TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+        <item name="android:fontFamily">@font/noto_sans</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ArtifactTierFont" parent="TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+        <item name="android:fontFamily">@font/noto_sans</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MenuCategoryFont" parent="TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+        <item name="android:fontFamily">@font/noto_sans</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    <style name="ContributorNameFont" parent="TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+        <item name="android:fontFamily">@font/noto_sans</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:lineSpacingExtra">5dp</item>
+    </style>
+    <style name="ContributorDescFont" parent="TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+        <item name="android:fontFamily">@font/noto_sans</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:lineSpacingExtra">5dp</item>
+    </style>
+
+    <style name="DiscordSuggestionSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/colorPveFont</item>
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/colorPveFont</item>
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/colorPvpFont</item>
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@color/colorPvpFont</item>
+    </style>
+
+    <style name="ArtifactStatsSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/colorMax</item>
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/colorMax</item>
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/colorBase</item>
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@color/colorBase</item>
+    </style>
+
+    <style name="IconCheckBoxStyle" parent="@style/Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:colorControlNormal">@android:color/transparent</item>
+        <item name="android:colorControlActivated">@color/colorSecondary</item>
+        <item name="android:colorControlHighlight">@color/colorSecondaryLight</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
+    </style>
+</resources>

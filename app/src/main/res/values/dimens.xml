@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="custom_bar_height">48dp</dimen>
+    <dimen name="navigation_bottom_height">55dp</dimen>
+    <dimen name="full_toolbar_height">103dp</dimen>
+
+    <dimen name="custom_nav_bar_width">240dp</dimen>
+    <dimen name="fade_effect_length">40dp</dimen>
+</resources>

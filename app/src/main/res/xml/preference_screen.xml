@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:background="@color/colorPrimary">
+
+    <PreferenceCategory
+        app:title="Discord Tier Rating"
+        android:icon="@drawable/discord_icon"
+        android:layout="@layout/preference_category"
+        />
+
+    <SwitchPreference
+        app:key="dtl_suggestion_all"
+        android:icon="@drawable/ic_assistant_white_24dp"
+        app:title="Hide suggestions (set/artifact)"
+        android:summary="Hide set and artifact suggestions from app"/>
+
+    <SwitchPreference
+        app:key="dtl_note_all"
+        android:icon="@drawable/ic_speaker_notes_white_24dp"
+        app:title="Hide Notes"
+        android:summary="Hide DTL committee notes from app"/>
+
+    <SwitchPreference
+        app:key="dtl_tier_activity"
+        android:icon="@drawable/ic_person_white_24dp"
+        app:title="Hide tier (hero/artifact)"
+        android:summary="Hide tier rating from hero and artifact windows"/>
+
+    <SwitchPreference
+        app:key="dtl_tier_list"
+        android:icon="@drawable/ic_view_list_white_24dp"
+        app:title="Hide tier (list)"
+        android:summary="Hide tier rating from main menu list"/>
+
+    <PreferenceCategory
+        app:title="Loading Screen"
+        android:layout="@layout/preference_category"
+        />
+    <SwitchPreference
+        app:key="es_loading_screen"
+        android:icon="@drawable/ic_wallpaper_white_24dp"
+        app:title="Turn on Character Loading Screen"
+        android:summary="Replaces loading screen with random character backgrounds. May use more data. (Disclaimer: All backgrounds are provided by Epic Seven creators, Smilegate Ent.)"/>
+</PreferenceScreen>

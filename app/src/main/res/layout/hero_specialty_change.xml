@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/hero_specialty_change_layout"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/hero_specialty_change_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:text="Specialty Change"
+        android:textAppearance="@style/HeroInfoSubtitleFont"
+        android:layout_marginBottom="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_background_round"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/hero_specialty_change_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:focusable="true"
+                android:clickable="true"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:padding="10dp">
+                <ImageView
+                    android:id="@+id/hero_specialty_change_image"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:foreground="@drawable/layout_circle_border"
+                    android:layout_gravity="center"
+                    tools:src="@tools:sample/avatars" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="2dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/hero_specialty_change_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        tools:text="@tools:sample/lorem[3]" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/hero_specialty_change_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@tools:sample/lorem[20]"
+        android:lineSpacingExtra="5dp"
+        android:textSize="14sp"/>
+
+</LinearLayout>

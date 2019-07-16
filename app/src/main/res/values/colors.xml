@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#753E1e</color>
+    <color name="colorPrimaryDark">#422817</color>
+    <color name="colorPrimaryLight">#EEB692</color>
+    <color name="colorPrimaryTransparent">#9F753E1E</color>
+
+    <color name="colorOldPrimary">#753E1e</color>
+    <color name="colorOldPrimaryDark">#422817</color>
+    <color name="colorOldPrimaryLight">#EEB692</color>
+
+    <color name="colorPrimaryGray">#986E4C</color>
+
+    android:background="@drawable/layout_background_round"
+    <color name="colorSecondary">#FFC468</color>
+    <color name="colorSecondaryDark">#be8a2c</color>
+    <color name="colorSecondaryLight">#ffec8b</color>
+
+    <color name="colorAccentGold">#D4AF37</color>
+    <color name="colorAccent">#fcb551</color>
+    <color name="colorAccentDark">#E7CA7B</color>
+    <color name="colorBackdrop">#CF7D50</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorTextSecondary">#FFCB79</color>
+
+    <color name="fontOrange">#E7774A</color>
+    <color name="fontSoulBlue">#4889e8</color>
+
+    <color name="fontLonging">#d1fa29</color>
+    <color name="fontTrust">#6bcefe</color>
+    <color name="fontLove">#fd9bc0</color>
+    <color name="fontRival">#ed4243</color>
+    <color name="fontGrudge">#d483fe</color>
+
+    <color name="colorFire">#e74933</color>
+    <color name="colorEarth">#94cf2e</color>
+    <color name="colorIce">#25b5fd</color>
+    <color name="colorDark">#c04fc3</color>
+    <color name="colorLight">#fed409</color>
+
+    <color name="colorPveFont">#64d8cb</color>
+    <color name="colorPvpFont">#b085f5</color>
+
+    <color name="colorBase">#ffdc5e</color>
+    <color name="colorMax">#F05247</color>
+
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/filter_drawer_menu">
+
+    <item
+        android:id="@+id/menu1"
+        android:alphabeticShortcut="a"
+        android:title="Menu No. 1"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        >
+        <menu
+            android:id="@+id/filter_group1"
+            android:checkableBehavior="all">
+            <item
+                android:id="@+id/submenu1"
+                android:title="SubMenu No. 1"
+                android:checkable="true"
+                app:actionViewClass="android.widget.CheckBox"/>
+            <item
+                android:id="@+id/submenu2"
+                android:title="SubMenu No. 2"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/checkbox"
+                android:title="CheckBox"
+                android:checkable="true"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu2"
+        android:alphabeticShortcut="b"
+        android:title="Menu No. 2"
+        android:orderInCategory="2"
+        app:showAsAction="always">
+        <menu
+            android:id="@+id/filter_group2"
+            android:checkableBehavior="all">
+            <item
+                android:id="@+id/g2submenu1"
+                android:title="SubMenu No. 1"
+                android:checkable="true"
+                app:actionLayout="@layout/filter_check" />
+            <item
+                android:id="@+id/g2submenu2"
+                android:title="SubMenu No. 2"
+                android:checkable="true"
+                app:actionLayout="@layout/filter_check" />
+        </menu>
+    </item>
+
+</menu>

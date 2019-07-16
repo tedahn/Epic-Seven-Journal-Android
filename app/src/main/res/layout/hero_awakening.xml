@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:background="@color/colorPrimaryDark"
+    android:layout_marginBottom="20dp">
+
+    <include layout="@layout/divider"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/HeroInfoSubtitleFont"
+            android:text="Awakening"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="end"
+            android:layout_marginEnd="20dp">
+            <RatingBar
+                android:id="@+id/awakening_stars"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_gravity="end"
+                android:numStars="6"
+                android:clickable="true"
+                android:focusable="true"
+                android:stepSize="1"
+                android:scaleX="1"
+                android:scaleY="1"
+                style="@style/EpicSevenAwakenRatingBar"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/layout_background_round"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:padding="10dp">
+        <include layout="@layout/sub_divider"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Stats Increase"/>
+
+        <include layout="@layout/sub_divider"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp">
+            <TableRow>
+                <ImageView
+                    android:id="@+id/awakening_stat_icon_1"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:id="@+id/awakening_stat_inc_desc_1"
+                    android:textColor="@color/fontOrange"
+                    android:shadowColor="@color/colorPrimaryDark"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="3"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/awakening_stat_inc_pt_1"
+                    android:layout_weight="1"
+                    android:gravity="end"/>
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:id="@+id/awakening_stat_icon_2"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:id="@+id/awakening_stat_inc_desc_2"
+                    android:textColor="@color/fontOrange"
+                    android:shadowColor="@color/colorPrimaryDark"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="3"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/awakening_stat_inc_pt_2"
+                    android:layout_weight="1"
+                    android:gravity="end"/>
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:id="@+id/awakening_stat_icon_3"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:id="@+id/awakening_stat_inc_desc_3"
+                    android:textColor="@color/fontOrange"
+                    android:shadowColor="@color/colorPrimaryDark"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="3"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/awakening_stat_inc_pt_3"
+                    android:layout_weight="1"
+                    android:gravity="end"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <include layout="@layout/sub_divider"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Consumed Resources"/>
+
+        <include layout="@layout/sub_divider"/>
+        <TextView
+            android:id="@+id/awakening_consumed_resources"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/hero_awakening_consumed_resources_rv"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:itemCount="2"
+            tools:listitem="@layout/rv_item_catalyst_small_with_counter"
+            tools:srcCompat="@layout/rv_item_catalyst_small_with_counter">
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+</LinearLayout>

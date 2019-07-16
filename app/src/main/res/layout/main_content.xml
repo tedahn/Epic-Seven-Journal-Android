@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_frame_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/filter_floating_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="end|bottom"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="25dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/ic_filter_list_black_24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/main_menu_toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/full_toolbar_height"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:elevation="3dp">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/main_menu_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/custom_bar_height"
+                android:background="?attr/colorPrimary"
+                app:layout_scrollFlags="scroll|enterAlways|snap"
+                android:gravity="center"
+                android:minHeight="@dimen/custom_bar_height"
+                app:titleTextColor="@color/colorText" />
+            <android.support.design.widget.BottomNavigationView
+                android:id="@+id/navigation_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/navigation_bottom_height"
+                android:background="@color/colorPrimary"
+                android:layout_gravity="bottom"
+                app:itemIconTint="@drawable/bottom_nav_color"
+                app:itemTextColor="@drawable/bottom_nav_color"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:elevation="0dp"
+                app:menu="@menu/navigation"/>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/main_view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:orientation="vertical"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+</android.support.design.widget.CoordinatorLayout>

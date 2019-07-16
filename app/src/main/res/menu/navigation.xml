@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_hero"
+        android:icon="@drawable/ic_journal_hero"
+        android:title="@string/title_hero" />
+
+    <item
+        android:id="@+id/navigation_artifact"
+        android:icon="@drawable/ic_journal_artifact"
+        android:title="@string/title_artifact" />
+
+    <item
+        android:id="@+id/navigation_catalyst"
+        android:icon="@drawable/ic_catalyst"
+        android:title="@string/title_catalyst" />
+
+    <item
+        android:id="@+id/navigation_camping"
+        android:icon="@drawable/ic_mazekey"
+        android:title="@string/title_camping" />
+
+    <item
+        android:id="@+id/navigation_menu"
+        android:icon="@drawable/ic_menu_black_24dp"
+        android:title="@string/title_menu" />
+</menu>

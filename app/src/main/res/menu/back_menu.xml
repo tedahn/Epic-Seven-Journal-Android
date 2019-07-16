@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_back_button"
+        android:icon="@drawable/ic_arrow_back_white_24dp"
+        android:iconTint="@color/colorText"
+        android:title="@string/nav_back"
+        android:checkable="true"
+        app:showAsAction="always"
+        />
+
+</menu>

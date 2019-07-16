@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+
+    <FrameLayout
+        android:id="@+id/catalyst_background"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:background="@drawable/bg_hero"
+        android:gravity="center_vertical"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginTop="85dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginStart="50dp"
+                android:id="@+id/catalyst_act_name"
+                android:layout_width="190dp"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"
+                tools:text="@tools:sample/lorem[5]" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/catalyst_act_image_bg"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginEnd="50dp"
+                    tools:src="@drawable/_itembg_stuff_1" />
+                <ImageView
+                    android:id="@+id/catalyst_act_image"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginEnd="50dp"
+                    tools:src="@tools:sample/avatars" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    </FrameLayout>
+
+
+</LinearLayout>

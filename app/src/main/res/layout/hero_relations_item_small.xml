@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackgroundBorderless">
+
+        <ImageView
+            android:id="@+id/hero_relations_small_hero_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/hero_item_icon"
+            tools:src="@tools:sample/avatars"
+            android:foreground="@drawable/layout_circle_border"/>
+
+        <ImageView
+            android:id="@+id/hero_relations_small_type_image"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginStart="33dp"
+            android:contentDescription="@string/hero_item_element"
+            app:srcCompat="@drawable/cm_icon_prodark" />
+</FrameLayout>
